@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCUnitTesting", "MVCUnitTesting\MVCUnitTesting.csproj", "{EBACF4AE-CBE8-4023-9132-430EE336A2A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCUnitTesting.Tests", "MVCUnitTesting.Tests\MVCUnitTesting.Tests.csproj", "{6098278D-20C3-4204-BDE3-8BCCDDC55C1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBACF4AE-CBE8-4023-9132-430EE336A2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBACF4AE-CBE8-4023-9132-430EE336A2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBACF4AE-CBE8-4023-9132-430EE336A2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBACF4AE-CBE8-4023-9132-430EE336A2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6098278D-20C3-4204-BDE3-8BCCDDC55C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6098278D-20C3-4204-BDE3-8BCCDDC55C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6098278D-20C3-4204-BDE3-8BCCDDC55C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6098278D-20C3-4204-BDE3-8BCCDDC55C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
