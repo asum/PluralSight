@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="PluralSight.Moq.Tests.Demo15.CustomerNameFormatterTests+When_formatting_a_customers_name.bad_words_should_be_stripped_from_the_first_and_last_names" /><Add Test="PluralSight.Moq.Tests.Demo18.CustomerNameFormatterTests+When_formatting_a_customers_name.all_bad_words_should_be_scrubbed" /></Playlist>

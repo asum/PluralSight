@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2793DCB5-46DE-468E-995C-D2734FC91DA7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PluralSight.Moq.Code</RootNamespace>
+    <AssemblyName>PluralSight.Moq.Code</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Demo01\Customer.cs" />
+    <Compile Include="Demo01\CustomerRepository.cs" />
+    <Compile Include="Demo01\CustomerService.cs" />
+    <Compile Include="Demo01\CustomerToCreateDto.cs" />
+    <Compile Include="Demo01\ICustomerRepository.cs" />
+    <Compile Include="Demo02\Customer.cs" />
+    <Compile Include="Demo02\CustomerService.cs" />
+    <Compile Include="Demo02\CustomerToCreateDto.cs" />
+    <Compile Include="Demo02\ICustomerRepository.cs" />
+    <Compile Include="Demo03\Address.cs" />
+    <Compile Include="Demo03\Customer.cs" />
+    <Compile Include="Demo03\CustomerService.cs" />
+    <Compile Include="Demo03\CustomerToCreateDto.cs" />
+    <Compile Include="Demo03\ICustomerAddressBuilder.cs" />
+    <Compile Include="Demo03\ICustomerRepository.cs" />
+    <Compile Include="Demo03\InvalidCustomerMailingAddressException.cs" />
+    <Compile Include="Demo04\Customer.cs" />
+    <Compile Include="Demo04\CustomerService.cs" />
+    <Compile Include="Demo04\CustomerToCreateDto.cs" />
+    <Compile Include="Demo04\ICustomerRepository.cs" />
+    <Compile Include="Demo04\IMailingAddressFactory.cs" />
+    <Compile Include="Demo04\InvalidMailingAddressException.cs" />
+    <Compile Include="Demo04\MailingAddress.cs" />
+    <Compile Include="Demo05\Customer.cs" />
+    <Compile Include="Demo05\CustomerService.cs" />
+    <Compile Include="Demo05\CustomerToCreateDto.cs" />
+    <Compile Include="Demo05\ICustomerRepository.cs" />
+    <Compile Include="Demo05\IIdFactory.cs" />
+    <Compile Include="Demo06\Customer.cs" />
+    <Compile Include="Demo06\CustomerService.cs" />
+    <Compile Include="Demo06\CustomerToCreateDto.cs" />
+    <Compile Include="Demo06\ICustomerFullNameBuilder.cs" />
+    <Compile Include="Demo06\ICustomerRepository.cs" />
+    <Compile Include="Demo07\Customer.cs" />
+    <Compile Include="Demo07\CustomerService.cs" />
+    <Compile Include="Demo07\CustomerStatus.cs" />
+    <Compile Include="Demo07\CustomerToCreateDto.cs" />
+    <Compile Include="Demo07\ICustomerRepository.cs" />
+    <Compile Include="Demo07\ICustomerStatusFactory.cs" />
+    <Compile Include="Demo08\Address.cs" />
+    <Compile Include="Demo08\Customer.cs" />
+    <Compile Include="Demo08\CustomerCreationException.cs" />
+    <Compile Include="Demo08\CustomerService.cs" />
+    <Compile Include="Demo08\CustomerToCreateDto.cs" />
+    <Compile Include="Demo08\ICustomerAddressFactory.cs" />
+    <Compile Include="Demo08\ICustomerRepository.cs" />
+    <Compile Include="Demo08\InvalidCustomerAddressException.cs" />
+    <Compile Include="Demo09\Customer.cs" />
+    <Compile Include="Demo09\CustomerService.cs" />
+    <Compile Include="Demo09\CustomerToCreateDto.cs" />
+    <Compile Include="Demo09\ICustomerRepository.cs" />
+    <Compile Include="Demo10\Customer.cs" />
+    <Compile Include="Demo10\CustomerService.cs" />
+    <Compile Include="Demo10\CustomerToCreateDto.cs" />
+    <Compile Include="Demo10\IApplicationSettings.cs" />
+    <Compile Include="Demo10\ICustomerRepository.cs" />
+    <Compile Include="Demo10\InvalidWorkstationIdException.cs" />
+    <Compile Include="Demo11\AuditingInformation.cs" />
+    <Compile Include="Demo11\Customer.cs" />
+    <Compile Include="Demo11\CustomerService.cs" />
+    <Compile Include="Demo11\CustomerToCreateDto.cs" />
+    <Compile Include="Demo11\IApplicationSettings.cs" />
+    <Compile Include="Demo11\ICustomerRepository.cs" />
+    <Compile Include="Demo11\InvalidWorkstationIdException.cs" />
+    <Compile Include="Demo11\SystemConfiguration.cs" />
+    <Compile Include="Demo12\Customer.cs" />
+    <Compile Include="Demo12\CustomerService.cs" />
+    <Compile Include="Demo12\CustomerToCreateDto.cs" />
+    <Compile Include="Demo12\IApplicationSettings.cs" />
+    <Compile Include="Demo12\ICustomerRepository.cs" />
+    <Compile Include="Demo12\InvalidWorkstationIdException.cs" />
+    <Compile Include="Demo13\Customer.cs" />
+    <Compile Include="Demo13\CustomerService.cs" />
+    <Compile Include="Demo13\CustomerToCreateDto.cs" />
+    <Compile Include="Demo13\ICustomerRepository.cs" />
+    <Compile Include="Demo13\IMailingRepository.cs" />
+    <Compile Include="Demo13\NotifySalesTeamEventArgs.cs" />
+    <Compile Include="Demo14\Customer.cs" />
+    <Compile Include="Demo14\CustomerService.cs" />
+    <Compile Include="Demo14\CustomerToCreateDto.cs" />
+    <Compile Include="Demo14\ICustomerRepository.cs" />
+    <Compile Include="Demo15\BaseFormatter.cs" />
+    <Compile Include="Demo15\Customer.cs" />
+    <Compile Include="Demo15\CustomerNameFormatter.cs" />
+    <Compile Include="Demo16\Address.cs" />
+    <Compile Include="Demo16\Customer.cs" />
+    <Compile Include="Demo16\CustomerService.cs" />
+    <Compile Include="Demo16\CustomerToCreateDto.cs" />
+    <Compile Include="Demo16\IAddressFormatter.cs" />
+    <Compile Include="Demo16\IAddressFormatterFactory.cs" />
+    <Compile Include="Demo16\ICustomerRepository.cs" />
+    <Compile Include="Demo17\Address.cs" />
+    <Compile Include="Demo17\Customer.cs" />
+    <Compile Include="Demo17\CustomerService.cs" />
+    <Compile Include="Demo17\CustomerToCreateDto.cs" />
+    <Compile Include="Demo17\ICustomerAddressFormatter.cs" />
+    <Compile Include="Demo17\ICustomerRepository.cs" />
+    <Compile Include="Demo18\Customer.cs" />
+    <Compile Include="Demo18\CustomerNameFormatter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

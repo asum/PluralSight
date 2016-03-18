@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="PluralSight.Moq.Tests.Demo08.CustomerServiceTests+When_creating_a_customer_which_has_an_invalid_address.an_exception_should_be_raised" /></Playlist>

@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="PluralSight.Moq.Tests.Demo02.CustomerServiceTests+When_creating_multiple_customers.the_customer_repository_should_be_called_once_per_customer" /></Playlist>
